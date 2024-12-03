@@ -1,6 +1,6 @@
 memory = []
 
-with open("Test.txt", "r") as file:
+with open("Input.txt", "r") as file:
     for line in file:
         memory.append(line.strip())
 
